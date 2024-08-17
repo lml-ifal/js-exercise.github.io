@@ -40,7 +40,7 @@ function limites() {
   let ls = Number(document.getElementsByName("e3n2")[0].value);
   let sum = 0;
   let arr = [];
-  for (let i = li + 1; i < ls; i++) {
+  for (let i = li; i <= ls; i++) {
     if (i % 2 === 0) {
       arr.push(i);
       sum += i;
